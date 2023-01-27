@@ -1,0 +1,170 @@
+body {
+  padding-top: 95px;
+}
+.people-container {
+  padding-top: 35px;
+}
+.people-container .title-module {
+  margin-bottom: 72px;
+}
+.people-container .team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.people-container .team-list .team-item {
+  margin: 0 22px 44px;
+  width: calc((100% - 44px * 3) / 4);
+}
+.people-container .team-list .team-item:nth-child(4n + 1) {
+  margin-left: 0;
+}
+.people-container .team-list .team-item:nth-child(4n + 4) {
+  margin-right: 0;
+}
+.people-container .team-list .team-item .pic {
+  width: 100%;
+  margin: 0 auto 5px;
+  padding-top: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 80px;
+}
+.people-container .team-list .team-item .text .name,
+.people-container .team-list .team-item .text .position {
+  font-size: 26px;
+}
+.people-container .team-list .team-item .text .position {
+  margin-bottom: 20px;
+}
+.people-container .team-list .team-item .text .desc {
+  font-size: 16px;
+}
+.content-container.last {
+  padding-bottom: 120px;
+}
+.content-container .title-module {
+  margin-bottom: 34px;
+}
+.content-container .content {
+  width: 100%;
+}
+.content-container .content .imgs {
+  margin-bottom: 42px;
+}
+.content-container .content .imgs img {
+  width: 100%;
+  display: block;
+}
+.content-container .content .note {
+  margin-bottom: 41px;
+}
+.content-container .content .note p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #2b292d;
+  margin-bottom: 10px;
+  text-indent: 2em;
+}
+@media screen and (max-width: 1190px) {
+  .people-container {
+    margin-bottom: 30px;
+  }
+  .people-container .title-module {
+    margin-bottom: 50px;
+  }
+  .people-container .team-list .team-item {
+    margin: 0 15px 30px;
+    width: calc((100% - 30px * 3) / 4);
+  }
+  .people-container .team-list .team-item .pic {
+    border-radius: 40px;
+  }
+  .people-container .team-list .team-item .text .name,
+  .people-container .team-list .team-item .text .position {
+    font-size: 22px;
+  }
+  .people-container .team-list .team-item .text .position {
+    margin-bottom: 10px;
+  }
+  .people-container .team-list .team-item .text .desc {
+    font-size: 14px;
+  }
+  .content-container.last {
+    padding-bottom: 80px;
+  }
+  .content-container .title-module {
+    margin-bottom: 20px;
+  }
+  .content-container .content .imgs {
+    margin-bottom: 20px;
+  }
+  .content-container .content .note {
+    margin-bottom: 41px;
+  }
+  .content-container .content .note p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 75px;
+  }
+  .people-container {
+    padding-top: 20px;
+  }
+  .people-container .title-module {
+    margin-bottom: 20px;
+  }
+  .people-container .team-list .team-item {
+    margin: 0 10px 20px;
+    width: calc((100% - 20px) / 2);
+  }
+  .people-container .team-list .team-item:nth-child(4n + 1) {
+    margin-left: 10px;
+  }
+  .people-container .team-list .team-item:nth-child(4n + 4) {
+    margin-right: 10px;
+  }
+  .people-container .team-list .team-item:nth-child(2n + 1) {
+    margin-left: 0;
+  }
+  .people-container .team-list .team-item:nth-child(2n + 2) {
+    margin-right: 0;
+  }
+  .people-container .team-list .team-item .pic {
+    border-radius: 40px;
+  }
+  .people-container .team-list .team-item .text .name,
+  .people-container .team-list .team-item .text .position {
+    font-size: 20px;
+  }
+  .people-container .team-list .team-item .text .position {
+    margin-bottom: 10px;
+  }
+  .people-container .team-list .team-item .text .desc {
+    font-size: 13px;
+  }
+  .content-container {
+    margin-bottom: 50px;
+  }
+  .content-container.last {
+    padding-bottom: 50px;
+  }
+  .content-container .title-module {
+    margin-bottom: 34px;
+  }
+  .content-container .content {
+    width: 100%;
+  }
+  .content-container .content .imgs {
+    margin-bottom: 20px;
+  }
+  .content-container .content .note {
+    margin-bottom: 20px;
+  }
+  .content-container .content .note p {
+    font-size: 14px;
+  }
+}

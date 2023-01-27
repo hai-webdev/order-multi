@@ -1,0 +1,202 @@
+:root {
+  scroll-behavior: smooth;
+}
+body {
+  padding-top: 185px;
+}
+.research-container {
+  margin-bottom: 90px;
+  position: relative;
+}
+.research-container .location {
+  position: absolute;
+  top: -95px;
+}
+.research-container .title-module {
+  margin-bottom: 85px;
+}
+.research-container .research-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 78px;
+}
+.research-container .research-list .research-item {
+  width: 40.5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  box-sizing: border-box;
+  position: relative;
+  padding-top: calc(40.5% * 0.5 - 50px);
+  margin-bottom: 30px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.research-container .research-list .research-item .research-box {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.research-container .research-list .research-item .research-box .img {
+  height: calc(100% - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.research-container .research-list .research-item .research-box .img img {
+  max-width: 100%;
+  max-height: 80%;
+}
+.research-container .research-list .research-item .research-box .title {
+  height: 60px;
+  line-height: 2;
+  font-size: 22px;
+  text-align: center;
+}
+.research-container .research-list .research-item .hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #96b4b8;
+  color: #fff;
+  padding: 43px;
+  box-sizing: border-box;
+  text-align: left;
+  transition: 1.2s;
+  opacity: 0;
+}
+.research-container .research-list .research-item .hover .title {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.research-container .research-list .research-item .hover .desc {
+  font-size: 15px;
+  line-height: 1.8;
+}
+.research-container .research-list .research-item:hover .hover {
+  opacity: 1;
+  background-color: rgba(149, 179, 183, 0.8);
+}
+.title-module.align-center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.title-module .more {
+  width: 180px;
+}
+.title-module .more.pack-up {
+  width: 143px;
+}
+@media screen and (max-width: 1500px) {
+  .research-container {
+    margin-bottom: 60px;
+  }
+  .research-container .title-module {
+    margin-bottom: 55px;
+  }
+  .research-container .research-list {
+    margin-bottom: 48px;
+  }
+  .research-container .research-list .research-item {
+    padding: 25px;
+    padding-top: calc(23.5% - 25px);
+  }
+  .research-container .research-list .research-item .research-box .title {
+    font-size: 18px;
+  }
+  .research-container .research-list .research-item .hover {
+    padding: 15px;
+  }
+  .research-container .research-list .research-item .hover .title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .research-container .research-list .research-item .hover .desc {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .title-module.align-center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  .title-module .more {
+    width: 180px;
+  }
+  .title-module .more.pack-up {
+    width: 143px;
+  }
+}
+@media screen and (max-width: 1190px) {
+  body {
+    padding-top: 100px;
+  }
+  .research-container {
+    margin-bottom: 30px;
+  }
+  .research-container .title-module {
+    margin-bottom: 25px;
+  }
+  .research-container .research-list {
+    margin-bottom: 38px;
+  }
+  .research-container .research-list .research-item {
+    width: 48.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: calc(48.5% - 50px);
+  }
+  .title-module.align-center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  .title-module .more {
+    width: 180px;
+  }
+  .title-module .more.pack-up {
+    width: 143px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .research-container .research-list .research-item .research-box .title {
+    padding: 0 15px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  .research-container .research-list .research-item .hover {
+    padding: 15px;
+    overflow-y: auto;
+  }
+  .research-container .research-list .research-item .hover .title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .research-container .research-list .research-item .hover .desc {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .title-module.align-center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  .title-module .more {
+    width: 120px;
+  }
+  .title-module .more.pack-up {
+    width: 120px;
+  }
+}

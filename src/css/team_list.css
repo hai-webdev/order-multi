@@ -1,0 +1,75 @@
+.banner-container .banner-item {
+  position: relative;
+  height: 980px;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-container .banner-item .text {
+  width: 456px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+.banner-container .banner-item .text .title {
+  font-size: 80px;
+  font-weight: normal;
+  line-height: 78px;
+  color: #2b292d;
+  margin-bottom: 42px;
+}
+.banner-container .banner-item .text .desc {
+  width: 456px;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+  color: #2b292d;
+  margin-bottom: 14px;
+}
+.banner-container .banner-item .text .title-module {
+  justify-content: flex-end;
+}
+.banner-container .banner-item .text .title-module .more {
+  width: 140px;
+}
+.people-container {
+  margin-bottom: 140px;
+}
+.people-container .team-list {
+  margin-bottom: 50px;
+}
+.people-container .team-list .team-item .text {
+  text-align: right;
+}
+@media screen and (max-width: 768px) {
+  .banner-container.swiper-container {
+    height: 500px;
+  }
+  .banner-container .banner-item {
+    height: 100%;
+  }
+  .banner-container .banner-item .text {
+    width: 80%;
+  }
+  .banner-container .banner-item .text .title {
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  .banner-container .banner-item .text .desc {
+    width: 100%;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 34px;
+    color: #2b292d;
+    margin-bottom: 14px;
+  }
+  .banner-container .banner-item .text .title-module {
+    justify-content: flex-end;
+  }
+  .banner-container .banner-item .text .title-module .more {
+    width: 120px;
+  }
+}

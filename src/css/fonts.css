@@ -1,0 +1,78 @@
+/* @font-face{
+    font-family: '字体名称随便起'; 
+    src: url('../font/字体名称.eot');
+    src:url('../font/字体名称.woff') format('woff'),
+        url('../font/字体名称.ttf') format('truetype'),
+        url('../font/字体名称.svg') format('svg');
+} */
+/* HKGrotesk系列 */
+@font-face {
+    font-family: 'hkg-b';
+    src: url('/public/fonts/eot/hkgrotesk-bold.eot');
+    src: url('/public/fonts/woff/hkgrotesk-bold.woff') format('woff'),
+        url('/public/fonts/ttf/hkgrotesk-bold.ttf') format('truetype'),
+        url('/public/fonts/svg/hkgrotesk-bold.svg') format('svg');
+}
+@font-face {
+    font-family: 'hkg-bi';
+    src: url('/public/fonts/eot/hkgrotesk-bolditalic.eot');
+    src: url('/public/fonts/woff/hkgrotesk-bolditalic.woff') format('woff'),
+        url('/public/fonts/ttf/hkgrotesk-bolditalic.ttf') format('truetype'),
+        url('/public/fonts/svg/hkgrotesk-bolditalic.svg') format('svg');
+}
+@font-face {
+    font-family: 'hkg-i';
+    src: url('/public/fonts/eot/hkgrotesk-italic.eot');
+    src: url('/public/fonts/woff/hkgrotesk-italic.woff') format('woff'),
+        url('/public/fonts/ttf/hkgrotesk-italic.ttf') format('truetype'),
+        url('/public/fonts/svg/hkgrotesk-italic.svg') format('svg');
+}
+@font-face {
+    font-family: 'hkg-l';
+    src: url('/public/fonts/eot/hkgrotesk-light.eot');
+    src: url('/public/fonts/woff/hkgrotesk-light.woff') format('woff'),
+        url('/public/fonts/ttf/hkgrotesk-light.ttf') format('truetype'),
+        url('/public/fonts/svg/hkgrotesk-light.svg') format('svg');
+}
+@font-face {
+    font-family: 'hkg-li';
+    src: url('/public/fonts/eot/hkgrotesk-lightitalic.eot');
+    src: url('/public/fonts/woff/hkgrotesk-lightitalic.woff') format('woff'),
+        url('/public/fonts/ttf/hkgrotesk-lightitalic.ttf') format('truetype'),
+        url('/public/fonts/svg/hkgrotesk-lightitalic.svg') format('svg');
+}
+@font-face {
+    font-family: 'hkg-m';
+    src: url('/public/fonts/eot/hkgrotesk-medium.eot');
+    src: url('/public/fonts/woff/hkgrotesk-medium.woff') format('woff'),
+        url('/public/fonts/ttf/hkgrotesk-medium.ttf') format('truetype'),
+        url('/public/fonts/svg/hkgrotesk-medium.svg') format('svg');
+}
+@font-face {
+    font-family: 'hkg-mi';
+    src: url('/public/fonts/eot/hkgrotesk-mediumitalic.eot');
+    src: url('/public/fonts/woff/hkgrotesk-mediumitalic.woff') format('woff'),
+        url('/public/fonts/ttf/hkgrotesk-mediumitalic.ttf') format('truetype'),
+        url('/public/fonts/svg/hkgrotesk-mediumitalic.svg') format('svg');
+}
+@font-face {
+    font-family: 'hkg-r';
+    src: url('/public/fonts/eot/hkgrotesk-regular.eot');
+    src: url('/public/fonts/woff/hkgrotesk-regular.woff') format('woff'),
+        url('/public/fonts/ttf/hkgrotesk-regular.ttf') format('truetype'),
+        url('/public/fonts/svg/hkgrotesk-regular.svg') format('svg');
+}
+@font-face {
+    font-family: 'hkg-sm';
+    src: url('/public/fonts/eot/hkgrotesk-semibold.eot');
+    src: url('/public/fonts/woff/hkgrotesk-semibold.woff') format('woff'),
+        url('/public/fonts/ttf/hkgrotesk-semibold.ttf') format('truetype'),
+        url('/public/fonts/svg/hkgrotesk-semibold.svg') format('svg');
+}
+@font-face {
+    font-family: 'hkg-smi';
+    src: url('/public/fonts/eot/hkgrotesk-semibolditalic.eot');
+    src: url('/public/fonts/woff/hkgrotesk-semibolditalic.woff') format('woff'),
+        url('/public/fonts/ttf/hkgrotesk-semibolditalic.ttf') format('truetype'),
+        url('/public/fonts/svg/hkgrotesk-semibolditalic.svg') format('svg');
+}

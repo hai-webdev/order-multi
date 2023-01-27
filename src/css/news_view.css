@@ -1,0 +1,191 @@
+body {
+  padding-top: 95px;
+}
+.main-content-container {
+  margin-top: 80px;
+  margin-bottom: 180px;
+}
+.main-content-container .infos-list {
+  margin: 70px 0;
+  position: relative;
+  padding-left: 18px;
+}
+.main-content-container .infos-list::before {
+  content: "";
+  left: 0;
+  position: absolute;
+  width: 8px;
+  height: 100%;
+  background-color: #b1d1ca;
+  border-radius: 4px;
+}
+.main-content-container .infos-list .info-item {
+  font-size: 24px;
+  font-weight: 0;
+  line-height: 30px;
+  color: #2b292d;
+}
+.main-content-container .infos-list .info-item .name {
+  font-weight: bold;
+}
+.main-content-container .info-container {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 180px;
+}
+.main-content-container .info-container .img {
+  width: 636px;
+  position: relative;
+  padding-top: calc(636px * 1.407);
+}
+.main-content-container .info-container .img img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main-content-container .info-container .img .text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  font-size: 58px;
+  font-weight: 0;
+  color: #b2adb8;
+  z-index: 2;
+}
+.main-content-container .info-container .infos-list {
+  margin-bottom: 0;
+  margin-left: 54px;
+}
+.main-content-container .title-module {
+  margin-bottom: 45px;
+}
+.main-content-container .content img {
+  max-width: 100%;
+}
+.main-content-container .content .imgs {
+  margin-bottom: 42px;
+}
+.main-content-container .content .note {
+  margin-bottom: 40px;
+}
+.main-content-container .content p {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 28px;
+  color: #2b292d;
+  margin-bottom: 10px;
+}
+.main-content-container .desc {
+  text-align: right;
+  font-size: 13px;
+  color: #aaa;
+}
+@media screen and (max-width: 1080px) {
+  .main-content-container .title-module {
+    margin-bottom: 45px;
+  }
+  .main-content-container .info-container {
+    margin-bottom: 80px;
+  }
+  .main-content-container .info-container .img {
+    width: 60%;
+    position: relative;
+    padding-top: calc(60% * 1.407);
+  }
+  .main-content-container .info-container .img img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .main-content-container .info-container .img .text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    font-size: 58px;
+    font-weight: 0;
+    color: #b2adb8;
+    z-index: 2;
+  }
+  .main-content-container .info-container .infos-list {
+    margin-bottom: 0;
+    margin-left: 30px;
+  }
+  .main-content-container .content .imgs {
+    margin-bottom: 22px;
+  }
+  .main-content-container .content .note {
+    margin-bottom: 20px;
+  }
+  .main-content-container .content p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-content-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .main-content-container .infos-list {
+    margin: 0 0 20px;
+    position: relative;
+    padding-left: 18px;
+  }
+  .main-content-container .infos-list::before {
+    width: 4px;
+  }
+  .main-content-container .infos-list .info-item {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .main-content-container .info-container {
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+  }
+  .main-content-container .info-container .img {
+    margin-bottom: 20px;
+    width: 100%;
+    padding-top: 140.7%;
+  }
+  .main-content-container .info-container .img .text {
+    font-size: 28px;
+  }
+  .main-content-container .info-container .infos-list {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  .main-content-container .title-module {
+    margin-bottom: 45px;
+  }
+  .main-content-container .content img {
+    max-width: 100%;
+  }
+  .main-content-container .content .imgs {
+    margin-bottom: 20px;
+  }
+  .main-content-container .content .note {
+    margin-bottom: 20px;
+  }
+  .main-content-container .content p {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #2b292d;
+    margin-bottom: 10px;
+  }
+  .main-content-container .desc {
+    font-size: 12px;
+  }
+}

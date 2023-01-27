@@ -1,0 +1,80 @@
+@import "./public.less";
+.banner-container {
+  .banner-item {
+    position: relative;
+    height: 980px;
+    height: 100vh;
+    .bgImg(cover);
+    .text {
+      width: 456px;
+      position: absolute;
+      top: 50%;
+      left: 10%;
+      transform: translateY(-50%);
+      .title {
+        font-size: 80px;
+        font-weight: normal;
+        line-height: 78px;
+        color: #2b292d;
+        margin-bottom: 42px;
+      }
+      .desc {
+        width: 456px;
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 34px;
+        color: #2b292d;
+        margin-bottom: 14px;
+      }
+      .title-module {
+        justify-content: flex-end;
+        .more {
+          width: 140px;
+        }
+      }
+    }
+  }
+}
+.people-container{
+  margin-bottom: 140px;
+  .team-list{
+    margin-bottom: 50px;
+    .team-item{
+      .text{
+        text-align: right;
+      }
+    }
+  }
+}
+@media screen and (max-width:768px){
+  .banner-container {
+    &.swiper-container{
+      height: 500px;
+    }
+    .banner-item {
+      height: 100%;
+      .text {
+        width: 80%;
+        .title {
+          font-size: 30px;
+          line-height: 1.5;
+          margin-bottom: 10px;
+        }
+        .desc {
+          width: 100%;
+          font-size: 20px;
+          font-weight: normal;
+          line-height: 34px;
+          color: #2b292d;
+          margin-bottom: 14px;
+        }
+        .title-module {
+          justify-content: flex-end;
+          .more {
+            width: 120px;
+          }
+        }
+      }
+    }
+  }
+}
